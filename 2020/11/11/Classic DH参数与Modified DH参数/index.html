@@ -285,7 +285,7 @@
 <li>绕$X_i$旋转$\alpha_i$角度，使$Z_{i-1}$与$Z_i$重合，至此两个坐标系重合；</li>
 </ol>
 <p>最终的变换矩阵如下：</p>
-<p>$${ }^{j-1} A_{j}=\left(\begin{array}{cccc}\cos \theta_{j} &amp; -\sin \theta_{j} \cos \alpha_{j} &amp; \sin \theta_{j} \sin \alpha_{j} &amp; a_{j} \cos \theta_{j} \ \sin \theta_{j} &amp; \cos \theta_{j} \cos \alpha_{j} &amp; -\cos \theta_{j} \sin \alpha_{j} &amp; \alpha_{j} \sin \theta_{j} \ 0 &amp; \sin \alpha_{j} &amp; \cos \alpha_{j} &amp; d_{j} \ 0 &amp; 0 &amp; 0 &amp; 1\end{array}\right)$$</p>
+<p>$$\begin{split}{ }^{j-1} A_{j}=\left(\begin{array}{cccc}\cos \theta_{j} &amp; -\sin \theta_{j} \cos \alpha_{j} &amp; \sin \theta_{j} \sin \alpha_{j} &amp; a_{j} \cos \theta_{j} \ \sin \theta_{j} &amp; \cos \theta_{j} \cos \alpha_{j} &amp; -\cos \theta_{j} \sin \alpha_{j} &amp; \alpha_{j} \sin \theta_{j} \ 0 &amp; \sin \alpha_{j} &amp; \cos \alpha_{j} &amp; d_{j} \ 0 &amp; 0 &amp; 0 &amp; 1\end{array}\right)\end{split}$$</p>
 <h2 id="Modified-DH"><a href="#Modified-DH" class="headerlink" title="Modified DH"></a>Modified DH</h2><h3 id="前提-1"><a href="#前提-1" class="headerlink" title="前提"></a>前提</h3><p>相当于人为的引进了两个约束条件，使得原来需要六个参数才能描述的位置和姿态，仅仅用四个参数就可以描述；</p>
 <p>具体地，是指$X_i$必须与$Z_{i+1}$垂直且相交。</p>
 <h3 id="建立各坐标系-1"><a href="#建立各坐标系-1" class="headerlink" title="建立各坐标系"></a>建立各坐标系</h3><ol>
