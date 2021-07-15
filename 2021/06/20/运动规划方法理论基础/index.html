@@ -14,7 +14,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="description" content="">
+  <meta name="description" content="本文简要介绍了运动规划所涉及的理论知识，分析基于搜索的运动规划、基于采样的运动规划、人工势场法这三种传统运动规划方法的基本原理，并总结各自运用于机械臂运动规划时存在的优缺点。">
   <meta name="author" content="Van Li">
   <meta name="keywords" content="">
   
@@ -158,7 +158,7 @@
 </nav>
 
     <div class="banner" id="banner" parallax=true
-         style="background: url('/img/bg/motion.jpg') no-repeat center center;
+         style="background: url('/img/bg/motion_banner.jpg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
@@ -195,7 +195,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      80
+      81
        分钟
     </span>
   
@@ -242,8 +242,8 @@
               </p>
             
             <div class="markdown-body">
-              <p>本文简要介绍了运动规划所涉及的理论知识，分析三大类经典的传统运动规划方法的基本原理，并总结各自运用于机械臂运动规划时存在的优缺点。</p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs markdown">&lt;!-- more --&gt;<br></code></pre></td></tr></table></figure>
+              <p>本文简要介绍了运动规划所涉及的理论知识，分析基于搜索的运动规划、基于采样的运动规划、人工势场法这三种传统运动规划方法的基本原理，并总结各自运用于机械臂运动规划时存在的优缺点。</p>
+<span id="more"></span>
 <h2 id="1-位形空间"><a class="markdownIt-Anchor" href="#1-位形空间"></a> 1. 位形空间</h2>
 <p>机器人系统的位形是对该系统每个状态的完整规范，所有位形的集合称为位形空间。通过引入位形空间这一概念，基于不同表达形式（如运动学、几何学等）的运动规划问题可以采用相同的规划方法解决。机器人系统在三维欧几里德空间中运动，这个空间被称为工作空间，对于机械臂而言，通常将末端执行器可到达的点的集合称为该机械臂的工作空间。通过机器人运动学的正解、逆解可实现位形空间与工作空间的互相转换。</p>
 <h3 id="11-拓扑的基本概念"><a class="markdownIt-Anchor" href="#11-拓扑的基本概念"></a> 1.1 拓扑的基本概念</h3>
@@ -324,7 +324,7 @@
 <p>A*方法的伪代码如表2所示：</p>
 <p><img src="/img/%E8%BF%90%E5%8A%A8%E8%A7%84%E5%88%92%E6%96%B9%E6%B3%95%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80/%E8%A1%A82.jpg" srcset="/img/loading.gif" lazyload alt="" /></p>
 <p>A*方法同样满足完备性与最优性，不同于Dijkstra方法搜索时需要在所有方向上进行拓展，A*方法由于引入了启发式策略，搜索时主要向目标扩展，如图5右图所示，大大降低了规划时的计算量。</p>
-<h2 id="3-经典图搜索算法"><a class="markdownIt-Anchor" href="#3-经典图搜索算法"></a> 3. 经典图搜索算法</h2>
+<h2 id="3-基于采样的运动规划"><a class="markdownIt-Anchor" href="#3-基于采样的运动规划"></a> 3. 基于采样的运动规划</h2>
 <p>基于采样的运动规划方法最大的特点是无需显式构造障碍区域，而是利用采样方式引导搜索位形空间，这使得此类方法可以有效解决与特定几何模型无关的运动规划问题，并且由于利用采样方式，无需探索大量的位形空间，使得计算量大大降低，在高维空间中也有着很快的运行速度，因此广泛应用于机械臂领域。但此类方法无法满足完备性，虽然当有解存在时，随着采样次数的增加可以在有限时间内得到解，但当无解存在时此类方法可能会永远进行下去。</p>
 <h3 id="31-位形空间中的距离"><a class="markdownIt-Anchor" href="#31-位形空间中的距离"></a> 3.1 位形空间中的距离</h3>
 <p>基于采样的运动规划方法的基础是评价位形空间中两点间的距离。最为熟知的距离评价方法是欧氏距离，其很容易在<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi mathvariant="double-struck">R</mi><mi>n</mi></msup></mrow><annotation encoding="application/x-tex">\mathbb{R}^n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68889em;vertical-align:0em;"></span><span class="mord"><span class="mord"><span class="mord mathbb">R</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.664392em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">n</span></span></span></span></span></span></span></span></span></span></span>空间中进行定义，但如何在任意位形空间中定义“距离”的概念，需要进一步讨论。</p>
