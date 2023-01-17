@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>51 Robot With PS2 Controller (PlayStation 2 Joystick)</title>
-      <link>https://van23li.github.io/project/51-robot-with-ps2-controller-playstation-2-joystick/</link>
+      <title>51 Robot With PS2 Controller</title>
+      <link>https://van23li.github.io/project/51-robot-with-ps2-controller/</link>
       <pubDate>Sat, 13 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://van23li.github.io/project/51-robot-with-ps2-controller-playstation-2-joystick/</guid>
+      <guid>https://van23li.github.io/project/51-robot-with-ps2-controller/</guid>
       <description>&lt;p&gt;Final pfroject for TJ-040390 &lt;strong&gt;嵌入式系统设计与应用&lt;/strong&gt; | &lt;strong&gt;Embedded System Design and Application&lt;/strong&gt;, &lt;em&gt;Sept. 2020 - Dec. 2020&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Controllers have a long history in our lives, from controlling robots to game consoles&amp;hellip; In this work, I pilot a mobile robot using a wireless PlayStation 2 (PS2). An MCS 51 was used at the core of this project. It receives commands from the wireless controller and sets the speed of the motors and the motion of the robot. The LCD screen displays the motor speed in real-time.&lt;/p&gt;
 &lt;p&gt;You can find more about this project 

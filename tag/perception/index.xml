@@ -17,7 +17,22 @@
       <link>https://van23li.github.io/project/road-side-foreground-segmentation/</link>
       <pubDate>Sat, 16 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://van23li.github.io/project/road-side-foreground-segmentation/</guid>
-      <description>&lt;p&gt;During my internship at BOSCH, I worked on the road-side foreground segmentation.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Algorithm intern in Bosch&lt;/strong&gt;, &lt;em&gt;Oct. 2021 - Jul. 2020&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;During my internship at Bosch, I worked on the road-side foreground segmentation. It seems to semantic segmentation, but they are actually different.&lt;/p&gt;
+&lt;p&gt;As automated driving technology develops and the V2X communication emerges, roadside perception has become an important part in addition to car-end perception. To provide guaranteed regional information/monitor input for make the car-end much safer with the assist of the road-side, we need to segment the &amp;ldquo;foreground&amp;rdquo;, which is defined as something can influence the traffic, from the &amp;ldquo;backgroound&amp;rdquo;,  which is defined as something won&amp;rsquo;t influence the traffic. Semantic segmentation will fail in some cases, because the same thing sometimes will influence the traffic, sometimes will not. For example, the rails as showing following, when they were installed on the ground , they are &amp;ldquo;foreground&amp;rdquo;, but if they are fell off the truck during transportation, they are &amp;ldquo;background&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://van23li.github.io/img/Bosch/rail.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;My main works include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simulated traffic using 
+&lt;a href=&#34;https://carla.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Carla&lt;/a&gt; and constructed dataset for training.&lt;/li&gt;
+&lt;li&gt;Determined KPI for evaluating the work on bounding box-based dataset to show the safety concept.&lt;/li&gt;
+&lt;li&gt;Designed the network using background information to achieve foreground segmentation (mainly inspired by 
+&lt;a href=&#34;https://link.springer.com/article/10.1007/s10044-019-00845-9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FgSegNet_v2&lt;/a&gt;, 
+&lt;a href=&#34;https://arxiv.org/abs/1909.11065&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HRNet&lt;/a&gt;, and 
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/9578641&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Background Matting Architecture&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Proposed a method to obtain background dynamically.&lt;/li&gt;
+&lt;li&gt;Researched the influence of some priori information in our task, such as background information and temporal consistency information.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -41,8 +56,6 @@
 &lt;li&gt;Tracking the violent individuals using the proposed tracker 
 &lt;a href=&#34;https://ieeexplore.ieee.org/document/9197252&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TSD&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;You can find the demonstration video 
-&lt;a href=&#34;https://www.bilibili.com/video/BV1x341167sB/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HERE&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -77,7 +90,7 @@
       <link>https://van23li.github.io/project/point-cloud-object-detection/</link>
       <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://van23li.github.io/project/point-cloud-object-detection/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Algorithm intern in Hesai Tech&lt;/strong&gt;, &lt;em&gt;July. 2020 - Aug. 2020&lt;/em&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Algorithm intern in Hesai Tech&lt;/strong&gt;, &lt;em&gt;Jul. 2020 - Aug. 2020&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;During my internship at Hesai Tech, I focused on the point cloud-based object detection. Our work is based on 
 &lt;a href=&#34;https://github.com/open-mmlab/OpenPCDet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenPCDet&lt;/a&gt; and 
 &lt;a href=&#34;https://waymo.com/open/data/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Waymo Open Dataset&lt;/a&gt;. Based on the fact that it is easier for human to distinguish moving point clouds, we fused information from multiple frames to raise the overall accuracy of detection.&lt;/p&gt;

@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="Researching road-side foreground segmentation for autonomous driving">
+  <meta name="description" content="Researching road-side foreground segmentation for autonomous driving.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://van23li.github.io/project/road-side-foreground-segmentation/">
@@ -253,7 +253,7 @@
   <meta property="og:site_name" content="Fan Li">
   <meta property="og:url" content="https://van23li.github.io/project/road-side-foreground-segmentation/">
   <meta property="og:title" content="Road-side Foreground segmentation | Fan Li">
-  <meta property="og:description" content="Researching road-side foreground segmentation for autonomous driving"><meta property="og:image" content="https://van23li.github.io/project/road-side-foreground-segmentation/featured.png">
+  <meta property="og:description" content="Researching road-side foreground segmentation for autonomous driving."><meta property="og:image" content="https://van23li.github.io/project/road-side-foreground-segmentation/featured.png">
   <meta property="twitter:image" content="https://van23li.github.io/project/road-side-foreground-segmentation/featured.png"><meta property="og:locale" content="en-us">
   
     
@@ -305,7 +305,7 @@
       "url": "https://van23li.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Researching road-side foreground segmentation for autonomous driving"
+  "description": "Researching road-side foreground segmentation for autonomous driving."
 }
 </script>
 
@@ -764,7 +764,22 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>During my internship at BOSCH, I worked on the road-side foreground segmentation.</p>
+      <p><strong>Algorithm intern in Bosch</strong>, <em>Oct. 2021 - Jul. 2020</em></p>
+<p>During my internship at Bosch, I worked on the road-side foreground segmentation. It seems to semantic segmentation, but they are actually different.</p>
+<p>As automated driving technology develops and the V2X communication emerges, roadside perception has become an important part in addition to car-end perception. To provide guaranteed regional information/monitor input for make the car-end much safer with the assist of the road-side, we need to segment the &ldquo;foreground&rdquo;, which is defined as something can influence the traffic, from the &ldquo;backgroound&rdquo;,  which is defined as something won&rsquo;t influence the traffic. Semantic segmentation will fail in some cases, because the same thing sometimes will influence the traffic, sometimes will not. For example, the rails as showing following, when they were installed on the ground , they are &ldquo;foreground&rdquo;, but if they are fell off the truck during transportation, they are &ldquo;background&rdquo;.</p>
+<p><img src="/img/Bosch/rail.png" alt=""></p>
+<p>My main works include:</p>
+<ul>
+<li>Simulated traffic using 
+<a href="https://carla.org/" target="_blank" rel="noopener">Carla</a> and constructed dataset for training.</li>
+<li>Determined KPI for evaluating the work on bounding box-based dataset to show the safety concept.</li>
+<li>Designed the network using background information to achieve foreground segmentation (mainly inspired by 
+<a href="https://link.springer.com/article/10.1007/s10044-019-00845-9" target="_blank" rel="noopener">FgSegNet_v2</a>, 
+<a href="https://arxiv.org/abs/1909.11065" target="_blank" rel="noopener">HRNet</a>, and 
+<a href="https://ieeexplore.ieee.org/document/9578641" target="_blank" rel="noopener">Background Matting Architecture</a>).</li>
+<li>Proposed a method to obtain background dynamically.</li>
+<li>Researched the influence of some priori information in our task, such as background information and temporal consistency information.</li>
+</ul>
 
     </div>
 
@@ -818,7 +833,7 @@
       <div class="media-body">
         <h5 class="card-title"><a href="https://van23li.github.io/">Fan Li</a></h5>
         <h6 class="card-subtitle">Msc in ME</h6>
-        <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
+        <p class="card-text">Stay foolish, stay hungry.</p>
         <ul class="network-icon" aria-hidden="true">
   
     
@@ -830,10 +845,8 @@
     
     
     
-      
-    
     <li>
-      <a href="/lifan@tongji.edu.cn" >
+      <a href="mailto:lifan@tongji.edu.cn" >
         <i class="fas fa-envelope"></i>
       </a>
     </li>
