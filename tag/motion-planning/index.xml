@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Motion Planning | Fan Li</title>
+    <link>https://van23li.github.io/tag/motion-planning/</link>
+      <atom:link href="https://van23li.github.io/tag/motion-planning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Motion Planning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://van23li.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Motion Planning</title>
+      <link>https://van23li.github.io/tag/motion-planning/</link>
+    </image>
+    
+    <item>
+      <title>Kinodynamic motion planning for safe manipulator throwing</title>
+      <link>https://van23li.github.io/project/kinodynamic-motion-planning-for-safe-manipulator-throwing/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://van23li.github.io/project/kinodynamic-motion-planning-for-safe-manipulator-throwing/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Semester project in LASA lab at EPFL&lt;/strong&gt;, &lt;em&gt;Sep. 2022 - Feb. 2023&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Coming soon&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Motion Planning for Excavator</title>
+      <link>https://van23li.github.io/project/motion-planning-for-excavator/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://van23li.github.io/project/motion-planning-for-excavator/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;My bachelor’s thesis&lt;/strong&gt;, &lt;em&gt;Feb. 2021 - Jun. 2021&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;My bachelor’s thesis focuses on motion planning of excavator-robot supervised by 
+&lt;a href=&#34;https://mefaculty.tongji.edu.cn/index.php?classid=2761&amp;amp;t=show&amp;amp;id=297&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Xiaotian Li&lt;/a&gt;. In this work, we extended 
+&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S1000936114002301&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IFDS&lt;/a&gt; (interfered fluid dynamical system) to high-dimensional space from 3-dimensional. We further demonstrated its completeness and optimality theoretically, and tested the method based on Matlab.&lt;/p&gt;
+&lt;p&gt;Besides, a kinematic model of the excavator-robot is established, and the necessary constraints that need to be met for motion planning in the mining process are analyzed. Based on ROS, a visual three-dimensional simulation platform of the excavator-robot is established, and the motion planning simulation experiments of the working device are designed based on a four-degree-of-freedom manipulator to verify the feasibility of the planning method and the simulation system.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

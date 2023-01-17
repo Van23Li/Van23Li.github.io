@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Other | Fan Li</title>
+    <link>https://van23li.github.io/tag/other/</link>
+      <atom:link href="https://van23li.github.io/tag/other/index.xml" rel="self" type="application/rss+xml" />
+    <description>Other</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 13 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://van23li.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Other</title>
+      <link>https://van23li.github.io/tag/other/</link>
+    </image>
+    
+    <item>
+      <title>51 Robot With PS2 Controller (PlayStation 2 Joystick)</title>
+      <link>https://van23li.github.io/project/51-robot-with-ps2-controller-playstation-2-joystick/</link>
+      <pubDate>Sat, 13 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://van23li.github.io/project/51-robot-with-ps2-controller-playstation-2-joystick/</guid>
+      <description>&lt;p&gt;Final pfroject for TJ-040390 &lt;strong&gt;嵌入式系统设计与应用&lt;/strong&gt; | &lt;strong&gt;Embedded System Design and Application&lt;/strong&gt;, &lt;em&gt;Sept. 2020 - Dec. 2020&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Controllers have a long history in our lives, from controlling robots to game consoles&amp;hellip; In this work, I pilot a mobile robot using a wireless PlayStation 2 (PS2). An MCS 51 was used at the core of this project. It receives commands from the wireless controller and sets the speed of the motors and the motion of the robot. The LCD screen displays the motor speed in real-time.&lt;/p&gt;
+&lt;p&gt;You can find more about this project 
+&lt;a href=&#34;https://github.com/Van23Li/PS2_control&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HEAR&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DIAN Racing Formula Student Electric Team</title>
+      <link>https://van23li.github.io/project/dian-racing-formula-student-electric-team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://van23li.github.io/project/dian-racing-formula-student-electric-team/</guid>
+      <description>&lt;p&gt;Powertrain &amp;amp; Driverless Group Member, &lt;em&gt;Mar. 2019 - May 2020&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Participating in the independent research and development of the motor, I completed the mathematical model to simulate the motor control&lt;/li&gt;
+&lt;li&gt;As a core team member, completing a 3DOF vehicle model using Simscape to realize the simulation of longitudinal, vertical, pitch and turning movements of 4WD formula racecar&lt;/li&gt;
+&lt;li&gt;Participating in the research and development of the unmanned vehicle, processing the information extracted by lidar&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Fan Li</title>
+    <link>https://van23li.github.io/project/</link>
+      <atom:link href="https://van23li.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://van23li.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>https://van23li.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Kinodynamic motion planning for safe manipulator throwing</title>
+      <link>https://van23li.github.io/project/kinodynamic-motion-planning-for-safe-manipulator-throwing/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://van23li.github.io/project/kinodynamic-motion-planning-for-safe-manipulator-throwing/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Semester project in LASA lab at EPFL&lt;/strong&gt;, &lt;em&gt;Sep. 2022 - Feb. 2023&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Coming soon&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Road-side Foreground segmentation</title>
+      <link>https://van23li.github.io/project/road-side-foreground-segmentation/</link>
+      <pubDate>Sat, 16 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://van23li.github.io/project/road-side-foreground-segmentation/</guid>
+      <description>&lt;p&gt;During my internship at BOSCH, I worked on the road-side foreground segmentation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Motion Planning for Excavator</title>
+      <link>https://van23li.github.io/project/motion-planning-for-excavator/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://van23li.github.io/project/motion-planning-for-excavator/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;My bachelor’s thesis&lt;/strong&gt;, &lt;em&gt;Feb. 2021 - Jun. 2021&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;My bachelor’s thesis focuses on motion planning of excavator-robot supervised by 
+&lt;a href=&#34;https://mefaculty.tongji.edu.cn/index.php?classid=2761&amp;amp;t=show&amp;amp;id=297&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Xiaotian Li&lt;/a&gt;. In this work, we extended 
+&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S1000936114002301&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IFDS&lt;/a&gt; (interfered fluid dynamical system) to high-dimensional space from 3-dimensional. We further demonstrated its completeness and optimality theoretically, and tested the method based on Matlab.&lt;/p&gt;
+&lt;p&gt;Besides, a kinematic model of the excavator-robot is established, and the necessary constraints that need to be met for motion planning in the mining process are analyzed. Based on ROS, a visual three-dimensional simulation platform of the excavator-robot is established, and the motion planning simulation experiments of the working device are designed based on a four-degree-of-freedom manipulator to verify the feasibility of the planning method and the simulation system.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Violence Detection</title>
+      <link>https://van23li.github.io/project/violence-detection/</link>
+      <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://van23li.github.io/project/violence-detection/</guid>
+      <description>&lt;p&gt;Project for &lt;strong&gt;上海市级大学生创新创业项目&lt;/strong&gt; | &lt;strong&gt;Shanghai innovation and entrepreneurship training program&lt;/strong&gt;, &lt;em&gt;Mar. 2019 - Mar. 2020&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;As shown in the picture, our project &amp;ldquo;Violence detection system based on deep learning&amp;rdquo; (Fan Li, Zhuofan Li, and Xiaoxiao Yang) supposed by 
+&lt;a href=&#34;https://mefaculty.tongji.edu.cn/index.php?classid=2761&amp;amp;t=show&amp;amp;id=46&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Aiguo Zhou&lt;/a&gt; and 
+&lt;a href=&#34;https://vision4robotics.github.io/authors/changhong-fu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Changhong Fu&lt;/a&gt; focuses on identifying violent individuals and tracking them. It mainly contains the following contents:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reading, displaying and preprocessing videos using 
+&lt;a href=&#34;https://opencv.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenCV&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Using 
+&lt;a href=&#34;https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Redmon_You_Only_Look_CVPR_2016_paper.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;YOLO&lt;/a&gt; which is a famous detection algorithm to identify the person&amp;rsquo;s position&lt;/li&gt;
+&lt;li&gt;Extracting person&amp;rsquo;s joint coordinates based on 
+&lt;a href=&#34;https://github.com/CMU-Perceptual-Computing-Lab/openpose&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenPose&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Converting the joint coordinates into the angle information, and using SVM to identify violent individuals&lt;/li&gt;
+&lt;li&gt;Tracking the violent individuals using the proposed tracker 
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/9197252&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TSD&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can find the demonstration video 
+&lt;a href=&#34;https://www.bilibili.com/video/BV1x341167sB/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HERE&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>51 Robot With PS2 Controller (PlayStation 2 Joystick)</title>
+      <link>https://van23li.github.io/project/51-robot-with-ps2-controller-playstation-2-joystick/</link>
+      <pubDate>Sat, 13 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://van23li.github.io/project/51-robot-with-ps2-controller-playstation-2-joystick/</guid>
+      <description>&lt;p&gt;Final pfroject for TJ-040390 &lt;strong&gt;嵌入式系统设计与应用&lt;/strong&gt; | &lt;strong&gt;Embedded System Design and Application&lt;/strong&gt;, &lt;em&gt;Sept. 2020 - Dec. 2020&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Controllers have a long history in our lives, from controlling robots to game consoles&amp;hellip; In this work, I pilot a mobile robot using a wireless PlayStation 2 (PS2). An MCS 51 was used at the core of this project. It receives commands from the wireless controller and sets the speed of the motors and the motion of the robot. The LCD screen displays the motor speed in real-time.&lt;/p&gt;
+&lt;p&gt;You can find more about this project 
+&lt;a href=&#34;https://github.com/Van23Li/PS2_control&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HEAR&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Online Visual Object Tracking for UAV</title>
+      <link>https://van23li.github.io/project/online-visual-object-tracking-for-uav/</link>
+      <pubDate>Sat, 13 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://van23li.github.io/project/online-visual-object-tracking-for-uav/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Undergraduate Research Assistant&lt;/strong&gt;, &lt;em&gt;Oct. 2018 - Oct. 2020&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;During this time, I focused on investigating visual object tracking for UAV based on correlation filter-based methods.&lt;/p&gt;
+&lt;p&gt;Among discriminative visual tracking methods, correlation filter (CF)-based approaches have received considerable attention for UAV tracking due to their high computational efficiency. In those methods, a 2D discriminative correlation filter is trained by minimizing the squared error over samples and their regression targets. Benefit from element-wise operation in the frequency domain, the CF-based methods usually have fast computational speed. In detection phase, a 2D response map is first obtained by correlating the trained filter, and new samples extracted from newly came image. Then the target location is predicted according to the highest peak of the response map. A bounding box is introduced circumscribe the target, indicating its location and representing its scale.&lt;/p&gt;
+&lt;p&gt;Related work has been published as follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;A cooperative energy minimization function is established to score the historical samples adaptively, optimizing the training-set’s quality efficiently and effectively.
+
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/9197252&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Training-Set Distillation for Real-Time UAV Object Tracking&lt;/strong&gt;&lt;/a&gt; in ICRA 2020&lt;/li&gt;
+&lt;li&gt;A dynamic constraint strategy is introduced to set up an adaptive restriction on the consistency level, exploiting rich temporal information in response maps thoroughly.
+
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/9340954&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Learning Consistency Pursued Correlation Filters for Real-Time UAV Tracking&lt;/strong&gt;&lt;/a&gt; In IROS 2020&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Point Cloud Object Detection</title>
+      <link>https://van23li.github.io/project/point-cloud-object-detection/</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://van23li.github.io/project/point-cloud-object-detection/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Algorithm intern in Hesai Tech&lt;/strong&gt;, &lt;em&gt;July. 2020 - Aug. 2020&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;During my internship at Hesai Tech, I focused on the point cloud-based object detection. Our work is based on 
+&lt;a href=&#34;https://github.com/open-mmlab/OpenPCDet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenPCDet&lt;/a&gt; and 
+&lt;a href=&#34;https://waymo.com/open/data/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Waymo Open Dataset&lt;/a&gt;. Based on the fact that it is easier for human to distinguish moving point clouds, we fused information from multiple frames to raise the overall accuracy of detection.&lt;/p&gt;
+&lt;p&gt;One of the challenges is to complete the evaluation toolbox. The toolbox from OpenPCDnet was developed based on 
+&lt;a href=&#34;http://www.cvlibs.net/datasets/kitti/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KITTI Dataset&lt;/a&gt;, although now it has been upgrated from v0.1 to v0.2 with pretty new structures to support various datasets including Waymo. Due to differences in the structures of KITTI and Waymo, we had to adjust it to support Waymo dataset. Besides, as we used multiple frames while most other methods only consider the single frame, it&amp;rsquo;s worthy to consider carefully how to evaluate them fairly.&lt;/p&gt;
+&lt;p&gt;To raise the accuracy of detection using multiple frames, I developed several detectors with OpenPCDet. My favorite method is using 
+&lt;a href=&#34;https://arxiv.org/abs/1506.04214&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ConvLSTM&lt;/a&gt; after bird-eye-view compression to introduce temporal information.&lt;/p&gt;
+&lt;p&gt;The internship at Hesai was not only a pleasant journey, as I made many valuable friends, I also learned to solve the problem from an engineer’s perspective.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DIAN Racing Formula Student Electric Team</title>
+      <link>https://van23li.github.io/project/dian-racing-formula-student-electric-team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://van23li.github.io/project/dian-racing-formula-student-electric-team/</guid>
+      <description>&lt;p&gt;Powertrain &amp;amp; Driverless Group Member, &lt;em&gt;Mar. 2019 - May 2020&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Participating in the independent research and development of the motor, I completed the mathematical model to simulate the motor control&lt;/li&gt;
+&lt;li&gt;As a core team member, completing a 3DOF vehicle model using Simscape to realize the simulation of longitudinal, vertical, pitch and turning movements of 4WD formula racecar&lt;/li&gt;
+&lt;li&gt;Participating in the research and development of the unmanned vehicle, processing the information extracted by lidar&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiaoxiao Yang | Fan Li</title>
+    <link>https://van23li.github.io/author/xiaoxiao-yang/</link>
+      <atom:link href="https://van23li.github.io/author/xiaoxiao-yang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xiaoxiao Yang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 24 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://van23li.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Xiaoxiao Yang</title>
+      <link>https://van23li.github.io/author/xiaoxiao-yang/</link>
+    </image>
+    
+    <item>
+      <title>Learning Consistency Pursued Correlation Filters for Real-Time UAV Tracking</title>
+      <link>https://van23li.github.io/publication/learning-consistency-pursued-correlation-filters-for-real-time-uav-tracking/</link>
+      <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://van23li.github.io/publication/learning-consistency-pursued-correlation-filters-for-real-time-uav-tracking/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
